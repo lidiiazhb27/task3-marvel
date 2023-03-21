@@ -1,0 +1,76 @@
+@import url(reset.css);
+@import url(fonts.css);
+.marvel{
+    height: 50px;
+    background-color:rgba(238,238,238,255);
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: 35px;
+    color: rgba(201,29,76,255);
+    font-family: 'Roboto';
+}
+.white{
+    height: 45px;
+    background-color:white;
+    margin: 0 auto;
+}
+.first{
+    width: 55%;
+    min-height: 200px;
+}
+.second{
+    box-sizing: border-box;
+    width: 45%;
+    min-height: 200px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 90px;
+}
+.oneline{
+    float: left;
+}
+.main_ph{
+    width: 505px;
+    border: double rgba(218,218,218,255) 4px;
+    background-size: contain;
+    margin: 10px 0 0px 90px;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+.main_ph:hover{
+    transform: scale(1.2);
+}
+.photos{
+    width: 105px;
+    background-size: contain;
+    margin: 30px 0 10px 16.2px;
+    border: double rgba(218,218,218,255) 4px;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.photos:hover{
+    transform: scale(2);
+}
+.distance{
+    margin-left: 90px;
+}
+.header{
+    height: 40px;
+    background: linear-gradient(to left,lightcoral, red );
+    line-height: 40px;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: 3s;
+    transition-property: background linear-gradient;
+}
+.header:hover{
+    background: linear-gradient(to left, red, lightcoral);
+} 
+.text{
+    font-family: 'DMMono';
+}
+.text:hover{
+    cursor: grab;
+}
+
